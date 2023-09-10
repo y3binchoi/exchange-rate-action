@@ -30,13 +30,13 @@ jobs:
     - name: Run Parser with python
       run: |
         python "parser.py"
-    - name: Commits
-      run: |
-        git config --local user.email "dev.devin.kr@gmail.com"
-        git config --local user.name "yebin-choi" 
-        git add .
-        git commit -m "Auto - Update data with Parsing" 
-    - name: Push
-      run: |
-        git remote set-url https://github.com/yebin-choi/exchange-rate-action
-        git push origin main
+    # - name: Commits
+    #   run: |
+    #     git config --local user.email "dev.devin.kr@gmail.com"
+    #     git config --local user.name "yebin-choi" 
+    #     git add .
+    #     git commit -m "Auto - Update data with Parsing" 
+    # - name: Push
+    #   run: |
+    #     git remote set-url https://github.com/yebin-choi/exchange-rate-action
+    #     git push origin main
