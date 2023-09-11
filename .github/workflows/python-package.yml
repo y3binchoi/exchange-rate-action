@@ -5,7 +5,7 @@ name: KB Exchange Rate Parser
 
 on:
   schedule:
-    - cron: '0 * * * *' # 매 시 정각마다 수행 
+    # - cron: '0 * * * *' # 매 시 정각마다 수행 
     
 jobs:
   build:
