@@ -6,7 +6,9 @@ name: KB Exchange Rate Parser
 on:
   schedule:
     - cron: '* * * * *' 
-    
+permissions:
+  contents: write
+  
 jobs:
   build:
 
