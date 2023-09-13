@@ -1,3 +1,4 @@
+insert_date,currency_code,trading_base_rate,telegraphic_transfer_buying_rate,telegraphic_transfer_selling_rate,buying_rate,selling_rate
 2023-09-12 14:27:47.717101,USD,"1,329.00","1,341.80","1,316.20","1,352.25","1,305.75"
 2023-09-12 14:27:47.717101,JPY,902.79,911.54,894.04,918.58,887.00
 2023-09-12 14:27:47.717101,EUR,"1,423.89","1,438.12","1,409.66","1,452.08","1,395.70"
