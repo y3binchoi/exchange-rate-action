@@ -20,12 +20,12 @@ elements = soup.select('#inqueryTable > table:nth-child(2) > tbody > tr')
 for index, element in enumerate(elements, 1):
     rows = element.select('td')  # 리스트
 
-    currency_code = rows[0].text
-    trading_base_rate = rows[2].text
-    telegraphic_transfer_buying_rate = rows[3].text
-    telegraphic_transfer_selling_rate = rows[4].text
-    buying_rate = rows[5].text
-    selling_rate = rows[6].text
+    currency_code = rows[0].text.replace(',', '')
+    trading_base_rate = rows[2].text.replace(',', '')
+    telegraphic_transfer_buying_rate = rows[3].text.replace(',', '')
+    telegraphic_transfer_selling_rate = rows[4].text.replace(',', '')
+    buying_rate = rows[5].text.replace(',', '')
+    selling_rate = rows[6].text.replace(',', '')
 
     print("{}번째 통화: ".format(index))
     print("기준일시", today)
